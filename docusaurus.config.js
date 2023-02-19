@@ -6,20 +6,21 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'My Site',
-    tagline: 'Dinosaurs are cool',
-    favicon: 'img/favicon.ico',
+    title: 'My Soft UI Dashboard',
+    tagline: 'User-friendly, open source and beautiful',
+    favicon: 'img/favicon.png',
 
     // Set the production url of your site here
-    url: 'https://your-docusaurus-test-site.com',
+    url: 'https://your-docusaurus-test-site.com', // TODO
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'facebook', // Usually your GitHub org/user name.
-    projectName: 'docusaurus', // Usually your repo name.
+    organizationName: 'app-generator', // Usually your GitHub org/user name.
+    projectName: 'docusaurus-soft-design', // Usually your repo name.
+    trailingSlash: false, // for github pages compatibility
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -42,14 +43,19 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/app-generator/docusaurus-soft-design/tree/main/packages/create-docusaurus/templates/shared/',
+                        'https://github.com/app-generator/docusaurus-soft-design/tree/main/',
+                    versions: {
+                        current: {
+                            label: `Next  🚧`,
+                        },
+                    },
                 },
                 blog: {
                     showReadingTime: true,
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/app-generator/docusaurus-soft-design/tree/main/packages/create-docusaurus/templates/shared/',
+                        'https://github.com/app-generator/docusaurus-soft-design/tree/main/',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
@@ -64,10 +70,11 @@ const config = {
             // Replace with your project's social card
             image: 'img/docusaurus-social-card.jpg',
             navbar: {
-                title: 'My Site',
+                title: 'My Soft UI Dashboard',
                 logo: {
-                    alt: 'My Site Logo',
-                    src: 'img/logo.svg',
+                    href: '/',
+                    alt: 'My Soft UI Dashboard Logo',
+                    src: 'img/logo-ct.png',
                 },
                 items: [
                     {
