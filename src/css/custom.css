@@ -17,6 +17,7 @@
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
     --ifm-background-color: #f8f9fa;
     --ifm-navbar-background-color: #f8f9fa;
+    --ifm-font-family-base: 'Roboto', 'Helvetica', 'Arial', sans-serif;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -29,8 +30,16 @@
     --ifm-color-primary-lighter: #32d8b4;
     --ifm-color-primary-lightest: #4fddbf;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+    --ifm-navbar-background-color: #242526;
 }
 
 .hero {
     background: linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253));
+}
+
+.navbar__logo {
+    background: #f8f9fa;
+    border-radius: 5px;
+    box-sizing: content-box;
+    padding: 2px;
 }
