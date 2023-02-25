@@ -16,6 +16,8 @@ export default function NotFound() {
     const publicKey = siteConfig.customFields.EMAILJS_PUBLIC_KEY as string
 
     useEffect(() => {
+        if (!serverId || !templateId || !publicKey) return
+
         async function emailJS() {
             emailjs
                 .send(
