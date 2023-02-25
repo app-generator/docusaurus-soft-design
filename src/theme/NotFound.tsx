@@ -63,7 +63,7 @@ export default function NotFound() {
                                     Page Not Found
                                 </Translate>
                             </h1>
-                            <p>
+                            <div>
                                 <Translate
                                     id="theme.NotFound.p1"
                                     description="The first paragraph of the 404 page"
@@ -71,8 +71,8 @@ export default function NotFound() {
                                     Sorry but the page you were looking for
                                     could not be found.
                                 </Translate>
-                            </p>
-                            <p>
+                            </div>
+                            <div>
                                 <div className="py-4 md:mr-20 justify-center ">
                                     <Link
                                         className="bg-white  no-underline hover:no-underline rounded-md text-black px-4 py-2   "
@@ -81,7 +81,7 @@ export default function NotFound() {
                                         Back to Home Page
                                     </Link>
                                 </div>
-                            </p>
+                            </div>
                         </div>
                     </div>
                 </main>
