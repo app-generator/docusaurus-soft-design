@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'My Soft UI Dashboard',
-    tagline: 'User-friendly, open source and beautiful',
+    title: 'Free DOCS Starter',
+    tagline: 'Powered by Docusaurus',
     favicon: 'img/favicon.png',
 
     // Set the production url of your site here
@@ -46,7 +46,7 @@ const config = {
                         'https://github.com/app-generator/docusaurus-soft-design/tree/main/',
                     versions: {
                         current: {
-                            label: `Next  🚧`,
+                            label: `Next 🚀`,
                         },
                     },
                 },
@@ -70,10 +70,10 @@ const config = {
             // Replace with your project's social card
             image: 'img/docusaurus-social-card.jpg',
             navbar: {
-                title: 'My Soft UI Dashboard',
+                title: 'My DOCS',
                 logo: {
                     href: '/',
-                    alt: 'My Soft UI Dashboard Logo',
+                    alt: 'Soft UI Dashboard',
                     src: 'img/logo-ct.png',
                 },
                 items: [
@@ -96,46 +96,46 @@ const config = {
                 style: 'dark',
                 links: [
                     {
-                        title: 'Docs',
+                        title: 'CONTENT',
                         items: [
                             {
-                                label: 'Tutorial',
+                                label: 'Docs',
                                 to: '/docs/intro',
                             },
-                        ],
-                    },
-                    {
-                        title: 'Community',
-                        items: [
-                            {
-                                label: 'Stack Overflow',
-                                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                            },
-                            {
-                                label: 'Discord',
-                                href: 'https://discordapp.com/invite/docusaurus',
-                            },
-                            {
-                                label: 'Twitter',
-                                href: 'https://twitter.com/docusaurus',
-                            },
-                        ],
-                    },
-                    {
-                        title: 'More',
-                        items: [
                             {
                                 label: 'Blog',
                                 to: '/blog',
                             },
+                        ],
+                    },
+                    {
+                        title: 'RESOURCES',
+                        items: [
                             {
-                                label: 'GitHub',
+                                label: 'Source Code',
                                 href: 'https://github.com/app-generator/docusaurus-soft-design',
+                            },
+                            {
+                                label: 'Soft UI Design',
+                                href: 'https://bit.ly/soft-design-system',
+                            },
+                        ],
+                    },
+                    {
+                        title: 'SUPPORT',
+                        items: [
+                            {
+                                label: 'AppSeed',
+                                href: 'https://appseed.us/support/',
+                            },
+                            {
+                                label: 'StackOverflow',
+                                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
                             },
                         ],
                     },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+                copyright: `&copy; ${new Date().getFullYear()} Your Company - MIT License`,
             },
             prism: {
                 theme: lightCodeTheme,
