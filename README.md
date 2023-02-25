@@ -1,12 +1,21 @@
-# Docusaurus `Soft Design`
+# [Docusaurus Soft Design](https://github.com/app-generator/docusaurus-soft-design)
 
-Open-Source docusaurus theme styled with `Soft Dashboard` Design from `Creative-Tim`.
+Open-Source Docusaurus Starter styled with [Soft UI Design](https://bit.ly/soft-design-system), an open-source design from `Creative-Tim` - Actively supported by [AppSeed](https://appseed.us/).
 
-> UI KIT: https://github.com/creativetimofficial/soft-ui-dashboard-react
+> Features
+
+- ✅ `Up-to-date dependencies` 
+- ✅ **[Docusaurus v2](https://docusaurus.io/)**
+- ✅ Modern UI: `Soft UI Design`, Dark-Mode
+- ✅ `Versioned Content`
+- ✅ `MIT License`, Free **Support**  
+- ℹ️ `SSR` (coming soon)
+- ℹ️ `404 Events Reporting` EmailJS (coming soon)
 
 <br />
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+
+<br />
 
 ### Installation
 
@@ -91,6 +100,5 @@ Not using SSH:
     GIT_USER=<Your GitHub username> pnpm run deploy
     ```
     
----
-
-Docusaurus `Soft Design` - provided by AppSeed
+--- 
+[Docusaurus Soft Design](https://github.com/app-generator/docusaurus-soft-design) - `Free DOCS Starter` provided by **[AppSeed](https://appseed.us/)**.
