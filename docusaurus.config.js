@@ -4,6 +4,13 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github')
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
+require('dotenv').config()
+const customFields = {
+    EMAILJS_SERVER_ID: process.env.EMAILJS_SERVER_ID,
+    EMAILJS_TEMPLATE_ID: process.env.EMAILJS_TEMPLATE_ID,
+    EMAILJS_PUBLIC_KEY: process.env.EMAILJS_PUBLIC_KEY,
+}
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'Free DOCS Starter',
@@ -24,6 +31,15 @@ const config = {
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
+
+    // EmailJS
+    // customFields: {
+    //     EMAILJS_SERVER_ID: process.env.EMAILJS_SERVER_ID,
+    //     EMAILJS_TEMPLATE_ID: process.env.EMAILJS_TEMPLATE_ID,
+    //     EMAILJS_PUBLIC_KEY: process.env.EMAILJS_PUBLIC_KEY,
+    // },
+
+    customFields: { ...customFields },
 
     // Even if you don't use internalization, you can use this field to set useful
     // metadata like html lang. For example, if your site is Chinese, you may want
