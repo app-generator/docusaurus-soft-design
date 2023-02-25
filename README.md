@@ -4,6 +4,7 @@ Open-Source Docusaurus Starter styled with [Soft UI Design](https://bit.ly/soft-
 
 > Features
 
+- 🚀 `Blazing Fast` - [SEE Demo](https://docusaurus-soft-design.onrender.com/)
 - ✅ `Up-to-date dependencies` 
 - ✅ **[Docusaurus v2](https://docusaurus.io/)**
 - ✅ Modern UI: `Soft UI Design`, Dark-Mode
