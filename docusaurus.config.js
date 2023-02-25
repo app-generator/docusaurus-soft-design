@@ -135,7 +135,7 @@ const config = {
                         ],
                     },
                 ],
-                copyright: `&copy; ${new Date().getFullYear()} Your Company - MIT License`,
+                copyright: `&copy; ${new Date().getFullYear()} MyCompany`,
             },
             prism: {
                 theme: lightCodeTheme,
