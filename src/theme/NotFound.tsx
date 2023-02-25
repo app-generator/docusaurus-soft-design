@@ -11,9 +11,9 @@ export default function NotFound() {
     const { siteConfig } = useDocusaurusContext()
     const location = useLocation()
 
-    const serverId = siteConfig.customFields.EMAILJS_SERVER_ID
-    const templateId = siteConfig.customFields.EMAILJS_TEMPLATE_ID
-    const publicKey = siteConfig.customFields.EMAILJS_PUBLIC_KEY
+    const serverId = siteConfig.customFields.EMAILJS_SERVER_ID as string
+    const templateId = siteConfig.customFields.EMAILJS_TEMPLATE_ID as string
+    const publicKey = siteConfig.customFields.EMAILJS_PUBLIC_KEY as string
 
     useEffect(() => {
         async function emailJS() {
