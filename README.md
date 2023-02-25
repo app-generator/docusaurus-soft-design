@@ -14,6 +14,7 @@ Open-Source Docusaurus Starter styled with [Soft UI Design](https://bit.ly/soft-
 
 <br />
 
+![Docusaurus Soft UI Design - Open-source DOCS Starter.](https://user-images.githubusercontent.com/51070104/221350480-512c0088-84dd-49ac-a277-c09d0449054a.jpg)
 
 <br />
 
