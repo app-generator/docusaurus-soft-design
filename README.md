@@ -101,6 +101,13 @@ Not using SSH:
     ```sh
     GIT_USER=<Your GitHub username> pnpm run deploy
     ```
-    
+
+<br />
+
+## Links & Resources
+
+- 👉 Contact `AppSeed` using the [support](https://appseed.us/support/) page
+- 👉 [Migrate from GitBook to Docusaurus](https://docs.appseed.us/gitbook-to-docusaurus-migration/) - `step-by-step` guide
+
 --- 
 [Docusaurus Soft Design](https://github.com/app-generator/docusaurus-soft-design) - `Free DOCS Starter` provided by **[AppSeed](https://appseed.us/)**.

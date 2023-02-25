@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.2] 2023-02-15
+### Changes
+
+- Update DOCS (readme)
+  - Added [Migrate from GitBook to Docusaurus](https://docs.appseed.us/gitbook-to-docusaurus-migration/) - `step-by-step` guide
+
 ## [1.0.1] 2023-02-15
 ### Changes
 
