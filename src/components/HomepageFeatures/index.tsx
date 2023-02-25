@@ -20,24 +20,22 @@ const FeatureList: FeatureItem[] = [
         ),
     },
     {
-        title: 'Focus on What Matters',
+        title: 'Modern Styling',
         Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
         description: (
             <>
-                Docusaurus lets you focus on your docs, and we&apos;ll do the
-                chores. Go ahead and move your docs into the <code>docs</code>{' '}
-                directory.
+                This project uses the UI styles from <a target="_blank" rel="noopener noreferrer" href="https://bit.ly/soft-design-system">Soft UI Design</a>, 
+                a popular Design crafted and released for free by <a target="_blank" rel="noopener noreferrer" href="https://bit.ly/3fKQZaL">Creative-Tim</a>. 
             </>
         ),
     },
     {
-        title: 'Powered by React',
+        title: 'Actively Supported',
         Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
         description: (
             <>
-                Extend or customize your website layout by reusing React.
-                Docusaurus can be extended while reusing the same header and
-                footer.
+                The codebase is constantly improved, updated and actively supported by <a target="_blank" rel="noopener noreferrer" href="https://appseed.us">AppSeed</a>{' '}
+                via email and <a target="_blank" rel="noopener noreferrer" href="https://appseed.us/support/">Discord</a>. 
             </>
         ),
     },
