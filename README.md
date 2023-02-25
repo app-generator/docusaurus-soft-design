@@ -10,8 +10,7 @@ Open-Source Docusaurus Starter styled with [Soft UI Design](https://bit.ly/soft-
 - ✅ Modern UI: **[Soft UI Design](https://bit.ly/soft-design-system)**, `Dark-Mode`
 - ✅ `Versioned Content`
 - ✅ `MIT License`, Free **Support**  
-- ℹ️ `SSR` (coming soon)
-- ℹ️ `404 Events Reporting` EmailJS (coming soon)
+- ✅ `404 Events Reporting` EmailJS (coming soon)
 
 <br />
 
@@ -101,6 +100,25 @@ Not using SSH:
     ```sh
     GIT_USER=<Your GitHub username> pnpm run deploy
     ```
+
+<br />
+
+### `404 Events` Reporting via [Email.JS](https://www.emailjs.com/)
+
+This feature might be useful when we need to log the these events in order to add the missing pages or the corespondent `301` redirects. 
+
+```bash
+$ cp env.sample .env
+$ vi .env
+```
+
+Edit email credentials: 
+
+```env
+EMAILJS_SERVER_ID=REAL_VALUE_HERE
+EMAILJS_TEMPLATE_ID=REAL_VALUE_HERE
+EMAILJS_PUBLIC_KEY=REAL_VALUE_HERE
+```
 
 <br />
 
