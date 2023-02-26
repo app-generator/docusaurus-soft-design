@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.6] 2023-02-26
+### Changes
+
+- Bump [StickyMedia](https://github.com/app-generator/sticky-media) `v0.0.17`
+  - LIbrary Codebase Improved 
+
 ## [1.0.5] 2023-02-26
 ### Changes
 
