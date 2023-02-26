@@ -1,6 +1,6 @@
 # [Docusaurus Soft Design](https://github.com/app-generator/docusaurus-soft-design)
 
-Open-Source Docusaurus Starter styled with [Soft UI Design](https://bit.ly/soft-design-system), an open-source design from `Creative-Tim` - Actively supported by [AppSeed](https://appseed.us/).
+**Open-Source Docusaurus Starter** styled with [Soft UI Design](https://bit.ly/soft-design-system), an open-source design from `Creative-Tim` - Actively supported by [AppSeed](https://appseed.us/).
 
 > Features
 
