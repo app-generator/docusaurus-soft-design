@@ -4,13 +4,13 @@ Open-Source Docusaurus Starter styled with [Soft UI Design](https://bit.ly/soft-
 
 > Features
 
+- ✅ `Up-to-date dependencies`, **Docusaurus v2** 
 - 🚀 `Blazing Fast` - [SEE Demo](https://docusaurus-soft-design.onrender.com/)
-- ✅ `Up-to-date dependencies` 
-- ✅ **Docusaurus v2**
 - ✅ Modern UI: **[Soft UI Design](https://bit.ly/soft-design-system)**, `Dark-Mode`
-- ✅ `Versioned Content`
 - ✅ `MIT License`, Free **Support**  
-- ✅ `404 Events Reporting` EmailJS (coming soon)
+- ✅ **404 Events Reporting** via `Email.JS` 
+- ✅ [Sticky Videos](https://docusaurus-soft-design.onrender.com/docs/tutorial-extras/sticky-media) for `YouTube`
+- ✅ Free [support](https://appseed.us/support/) (email & `Discord`) 
 
 <br />
 

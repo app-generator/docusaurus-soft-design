@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.4] 2023-02-26
+### Changes
+
+- Added [Sticky Videos](https://docusaurus-soft-design.onrender.com/docs/tutorial-extras/sticky-media) for `YouTube`
+  - This feature keeps your users on site
+
 ## [1.0.3] 2023-02-25
 ### Changes
 
