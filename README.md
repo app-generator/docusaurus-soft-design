@@ -2,6 +2,8 @@
 
 **Open-Source Docusaurus Starter** styled with [Soft UI Design](https://bit.ly/soft-design-system), an open-source design from `Creative-Tim` - Actively supported by [AppSeed](https://appseed.us/).
 
+<br />
+
 > Features
 
 - ✅ `Up-to-date dependencies`, **Docusaurus v2** 
