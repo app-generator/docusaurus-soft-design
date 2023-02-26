@@ -23,7 +23,7 @@ You may add a sticky video by giving `sticky-popup` class to an `a` tag.
 ## Try it!
 
 <a
-    class="sticky-popup"
+    className="sticky-popup"
     target="_blank"
     href="https://www.youtube.com/watch?v=uRgQ_TpTj4g"
     data-video-id="uRgQ_TpTj4g"
