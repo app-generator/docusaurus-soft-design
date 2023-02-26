@@ -44,12 +44,12 @@ const config = {
 
     scripts: [
         {
-            src: '//cdn.jsdelivr.net/gh/app-generator/sticky-media@0.0.13/dist/index.min.js',
-            async: true,
+            src: '//cdn.jsdelivr.net/gh/app-generator/sticky-media@0.0.17/dist/index.min.js',
+            id: 'stickyVideoScript',
+            defer: true,
+            class: 'sticky-popup',
         },
     ],
-
-    clientModules: [require.resolve('./docusaurus-plugin/stickyMedia.js')],
 
     presets: [
         [
