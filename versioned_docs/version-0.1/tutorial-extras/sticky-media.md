@@ -6,12 +6,11 @@ sidebar_position: 3
 
 You may add a sticky video by giving `sticky-popup` class to an `a` tag.
 
-```html
+```html {4}
 <!-- md content above -->
 
 <a
-    // highlight-next-line
-    class="sticky-popup"
+    className="sticky-popup"
     target="_blank"
     href="https://www.youtube.com/watch?v=uRgQ_TpTj4g"
     >Sticky video</a
