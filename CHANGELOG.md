@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.0.5] 2023-02-26
+### Changes
+
+- Update DOCS (readme)
+- Update `Sticky Video` Link
+- Added `Presentation Video` (published on yTube)
+  - [Docusaurus - Soft Design](https://www.youtube.com/watch?v=uRgQ_TpTj4g)  
+
 ## [1.0.4] 2023-02-26
 ### Changes
 

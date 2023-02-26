@@ -6,12 +6,13 @@
 
 > Features
 
-- ✅ `Up-to-date dependencies`, **Docusaurus v2** 
-- 🚀 `Blazing Fast` - [SEE Demo](https://docusaurus-soft-design.onrender.com/)
+- ✅ **Docusaurus v2** 
+- 🚀 `Blazing Fast` - [See Demo](https://docusaurus-soft-design.onrender.com)
 - ✅ Modern UI: **[Soft UI Design](https://bit.ly/soft-design-system)**, `Dark-Mode`
 - ✅ `MIT License`, Free **Support**  
 - ✅ **404 Events Reporting** via `Email.JS` 
 - ✅ [Sticky Videos](https://docusaurus-soft-design.onrender.com/docs/tutorial-extras/sticky-media) for `YouTube`
+  - [Docusaurus Soft Design](https://www.youtube.com/watch?v=uRgQ_TpTj4g), `video presentation`
 - ✅ Free [support](https://appseed.us/support/) (email & `Discord`) 
 
 <br />

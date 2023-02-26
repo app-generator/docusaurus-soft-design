@@ -13,7 +13,7 @@ You may add a sticky video by giving `sticky-popup` class to an `a` tag.
     // highlight-next-line
     class="sticky-popup"
     target="_blank"
-    href="https://www.youtube.com/watch?v=G1OM2L7XK5Y"
+    href="https://www.youtube.com/watch?v=uRgQ_TpTj4g"
     >Sticky video</a
 >
 
@@ -25,6 +25,6 @@ You may add a sticky video by giving `sticky-popup` class to an `a` tag.
 <a
     class="sticky-popup"
     target="_blank"
-    href="https://www.youtube.com/watch?v=G1OM2L7XK5Y"
-    data-video-id="G1OM2L7XK5Y"
+    href="https://www.youtube.com/watch?v=uRgQ_TpTj4g"
+    data-video-id="uRgQ_TpTj4g"
     >Sticky video</a>
