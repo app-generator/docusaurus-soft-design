@@ -32,13 +32,6 @@ const config = {
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
 
-    // EmailJS
-    // customFields: {
-    //     EMAILJS_SERVER_ID: process.env.EMAILJS_SERVER_ID,
-    //     EMAILJS_TEMPLATE_ID: process.env.EMAILJS_TEMPLATE_ID,
-    //     EMAILJS_PUBLIC_KEY: process.env.EMAILJS_PUBLIC_KEY,
-    // },
-
     customFields: { ...customFields },
 
     // Even if you don't use internalization, you can use this field to set useful
@@ -48,6 +41,15 @@ const config = {
         defaultLocale: 'en',
         locales: ['en'],
     },
+
+    scripts: [
+        {
+            src: '//cdn.jsdelivr.net/gh/app-generator/sticky-media@0.0.13/dist/index.min.js',
+            async: true,
+        },
+    ],
+
+    clientModules: [require.resolve('./docusaurus-plugin/stickyMedia.js')],
 
     presets: [
         [
