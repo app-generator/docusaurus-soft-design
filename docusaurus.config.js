@@ -18,7 +18,7 @@ const config = {
     favicon: 'img/favicon.png',
 
     // Set the production url of your site here
-    url: 'https://your-docusaurus-test-site.com', // TODO
+    url: 'https://docusaurus-soft-design.onrender.com/',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/',
@@ -158,6 +158,13 @@ const config = {
             prism: {
                 theme: lightCodeTheme,
                 darkTheme: darkCodeTheme,
+            },
+            algolia: {
+                appId: process.env.APPLICATION_ID,
+                apiKey: process.env.API_KEY,
+                indexName: 'index',
+                contextualSearch: true,
+                searchParameters: {},
             },
         }),
 }
