@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.8] 2023-03-25
+### Changes
+
+- Added PNPM Lock 
+  - (fix Render deployment)
+
 ## [1.0.7] 2023-03-25
 ### Changes
 
